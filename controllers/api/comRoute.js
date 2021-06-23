@@ -1,10 +1,10 @@
 const router = require('express').Router();
-const { Comment } = require('../../models');
+const { Com } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 router.get('/', async (req, res) => {
     try {
-        const getCom = await Comment.findAll({});
+        const getCom = await Com.findAll({});
         res.status(200).json(getCom)
     } catch (err) {
         console.log(err);
@@ -15,10 +15,10 @@ router.get('/', async (req, res) => {
 router.post('/', withAuth, async (req, res) => {
   if (req.session) {
       try {
-        const postCom = await Comment.create({
-            comment_text: req.body.comment_text,
-            post_id: req.body.post_id,
-            user_id: req.session.user_id,
+        const postCom = await Com.create({
+            commentText: req.body.commentText,
+            postId: req.body.postId,
+            userId: req.session.userId,
           });
           res.status(200).json(postCom)
       } catch (err) {
@@ -30,7 +30,7 @@ router.post('/', withAuth, async (req, res) => {
 
 router.delete('/:id', withAuth, async (req, res) => {
     try {
-        const deletedCom = Comment.destroy({
+        const deletedCom = Com.destroy({
             where: {
               id: req.params.id
             }
