@@ -18,7 +18,7 @@ const SequelizeStore = require('connect-session-sequelize')(session.Store);
 const sess = {
   secret: 'tech-rex',
   cookie: {
-        expires: 10 * 60 * 1000
+    maxAge: 86400,
   },
   resave: true,
   rolling: true,
