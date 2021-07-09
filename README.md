@@ -1,7 +1,7 @@
 # MVC_Tech_Blog
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
-MVC_tech_blog is an application for users to share common text and be able to comment on other's post. The app stores the user input in the data base and send the info to the client according the request. The application features viewing and inputting. Editing and deleting functions are not included. All posts remains permanent as they were stored. 
+MVC_tech_blog is an application for users to share common text and be able to comment on other's post. The app stores the user input in the data base and send the info to the client according the request. The application features viewing and inputting. Editing and deleting functions are not included. All posts remains permanent as they were stored.
 ## Table of Contents
 - [Installation](#installation)
 - [Tests](#tests)
@@ -9,19 +9,19 @@ MVC_tech_blog is an application for users to share common text and be able to co
 - [Credits](#credits)
 - [License](#license)
 ## Installation
-For future developer, 
-1. npm i 
+For future developer,
+1. npm i
 2. create .env file and proper password, root, and database_name
-3. node seeds/index.js 
+3. node seeds/index.js
 4. run the server via npm run watch
 
 ### Tests
 n/a
 
 ## Usage
-Users can use insomnia to test out `get`, `put`, `delete`, and `post`methods for backend developement. 
+Users can use insomnia to test out `get`, `put`, `delete`, and `post`methods for backend developement.
 
-![demo](img/e_com.gif)
+![demo](img/screen.jpg)
 ### click here to check out deployed app (https://desolate-wave-46699.herokuapp.com/signup)
 
 ## Contributing
