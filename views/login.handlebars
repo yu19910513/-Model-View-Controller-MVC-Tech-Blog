@@ -1,29 +1,29 @@
 
 </div>
-            <h2 class="title pb-4">Log in</h2>
+            <h2 class="title pb-4 text-white text-center">Log in</h2>
             <hr />
-            <form class="login-form needs-validation" novalidate >
+            <form class="login-form rounded shadow needs-validation text-center p-3" novalidate >
               <div>
-                <label for="email-login">Email:</label>
+                <label for="email-login" class="text-white mt-3">Email:</label>
                 <input type="text" id="email-login" class="form-control" required/>
                 <div class="invalid-feedback">
                   please enter the registered email!
                 </div>
               </div>
               <div>
-                <label for="password-login">Password:</label>
+                <label for="password-login" class="text-white">Password:</label>
                 <input type="password" id="password-login" class="form-control"  required />
-                <input type="checkbox" onclick="myFunction()">Show Password
+                <input type="checkbox" onclick="myFunction()"><div class='text-white small'>Show Password</div>
                 <div class="invalid-feedback">
                   Password can not be empty!
                 </div>
               </div>
 
               <div>
-                <button type="submit" class="button">Login</button>
+                <button type="submit" class="button btn-success rounded mb-3">Login</button>
                 <a href="/signup"><button
                     type="button"
-                    class="button"
+                    class="button btn-danger small rounded mb-3"
                   >Signup</button></a>
               </div>
             </div>

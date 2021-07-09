@@ -19,7 +19,7 @@ async function loginFormHandler(event) {
       if (response.ok) {
         document.location.replace('/dashboard');
       } else {
-        alert(response.statusText);
+        alert("failed to log in! please try again with correct login info!");
       }
     }
   }
