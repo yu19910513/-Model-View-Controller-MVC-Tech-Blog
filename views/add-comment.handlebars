@@ -3,16 +3,16 @@
 {{> post-info post}}
 
 {{#if loggedIn}}
-<form class="comment-form needs-validation" novalidate>
+<form class="comment-form needs-validation small d-flex justify-content-center mt-3" novalidate>
         <div>
-          <textarea class="comment-textarea form-control" name="comment-body" required></textarea>
+          <textarea class="comment-textarea form-control large" name="comment-body" required></textarea>
           <div class="invalid-feedback">
             Can't send an empty comment!
           </div>
         </div>
 
         <div>
-          <button class="button-add-comment" type="submit">add comment</button>
+          <button class="button-add-comment btn-success" type="submit">{submit}</button>
         </div>
 </form>
 {{/if}}

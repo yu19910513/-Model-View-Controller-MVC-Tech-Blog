@@ -1,13 +1,14 @@
 <div>
 
-<h2 class="title">Dashboard: Your Posts</h2><hr>
+<h2 class="title text-center text-white">Dashboard</h2><hr>
 {{#if posts.length}}
     <div>
     {{#each posts as |post|}}
         {{> post-info post}}
+        {{> comment post.comments}}
     {{/each}}
     </div>
 {{else}}
-<h3>You do not have any Posts yet.</h3>
+<h3 class="text-light text-center">404! You do not have any Posts yet.</h3>
 
 {{/if}}

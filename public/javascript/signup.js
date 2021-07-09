@@ -15,14 +15,14 @@ async function signupFormHandler(event) {
           password
         }),
         headers: { 'Content-Type': 'application/json' }
-      }); console.log(email, password, name, access_level, date_created);
+      }); console.log(email, password, name);
 
       // check the response status
       if (response.ok) {
         console.log('success');
         document.location.replace('/dashboard');
       } else {
-        alert(response.statusText);
+        alert('try again')
       }
     }
 }
