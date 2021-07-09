@@ -1,45 +1,54 @@
-# Take A Hike
-
-- Take a Hike
-
+# MVC_Tech_Blog
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## Description
+MVC_tech_blog is an application for users to share common text and be able to comment on other's post. The app stores the user input in the data base and send the info to the client according the request. The application features viewing and inputting. Editing and deleting functions are not included. All posts remains permanent as they were stored. 
 ## Table of Contents
-
-- [About the Project](#about-the-project)
 - [Installation](#installation)
+- [Tests](#tests)
 - [Usage](#usage)
-- [Credit](#credit)
+- [Credits](#credits)
 - [License](#license)
-
-## About the Project
-
-Take a Hike is an application that hikers can create a profile and add hikes they have taken and hike they want to take to their profile. The user will also be able to search hikes and check weather conditions along with comments other hikes have made about that particular hike.
-
 ## Installation
+For future developer, 
+1. npm i 
+2. create .env file and proper password, root, and database_name
+3. node seeds/index.js 
+4. run the server via npm run watch
+
+### Tests
+n/a
 
 ## Usage
+Users can use insomnia to test out `get`, `put`, `delete`, and `post`methods for backend developement. 
 
-Create a hiker profile so hikers can track hikes they have taken and hikes they want to take in the future. They can also view comments that other hikers have made about the hikes.
+![demo](img/e_com.gif)
+### click here to check out deployed app (https://desolate-wave-46699.herokuapp.com/signup)
 
-- Take a hike
+## Contributing
+you may fork this application by the following steps
+ 1. **Fork** the repo on GitHub
+ 2. **Clone** the project to your own machine
+ 3. **Commit** changes to your own branch
+ 4. **Push** your work back up to your fork
+ 5. **Other Notes**
 
-## Table of Contents
-  - [About the Project](#about-the-project)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Credit](#credit)
-  - [License](#license)
-
-
-## About the Project 
- - 
-
-
-## Installation
-
-## Usage 
-
-
-## Credit
+## Credits
+1. rex 2. google
 
 ## License
+* Licensed under the MIT license (MIT) License. Copyright © 2021
+---
+## Contacts
+GitHub: [yu19910513](https://github.com/yu19910513/)
 
+Email: [rexyu@uw.edu](mailto:rexyu@uw.edu)
+
+## MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
