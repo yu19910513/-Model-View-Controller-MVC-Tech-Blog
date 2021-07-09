@@ -1,0 +1,37 @@
+<section>
+  <h2 class="title">Create A New Post</h2>
+  <hr />
+  <form class="needs-validation add-hike-form" novalidate>
+    <div>
+      <label for="post-name">title:</label>
+      <input
+        class="input form-control post-title mb-3"
+        type="text"
+        id="post-title"
+        name="post-title"
+        placeholder="title"
+        required
+      />
+      <div class="valid-feedback">Looks good!</div>
+    </div>
+    <div>
+      <label for="post-content">content:</label>
+      <input
+        type="text"
+        class="form-control post-content mb-3"
+        id="post-content"
+        name="post-content"
+        placeholder="content"
+        required
+      />
+      <div class="valid-feedback">Looks good!</div>
+    </div>
+
+
+    <br />
+    <button type="submit" class="submit create_btn">Create post</button>
+  </form>
+  </div>
+</section>
+
+<script src="/javascript/add_post.js"></script>

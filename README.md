@@ -1,2 +1,45 @@
-# Model-View-Controller-MVC-Tech-Blog
-The task is to build a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. This project was built completely from scratch and deployed it to Heroku. The app will follow the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
+# Take A Hike
+
+- Take a Hike
+
+## Table of Contents
+
+- [About the Project](#about-the-project)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credit](#credit)
+- [License](#license)
+
+## About the Project
+
+Take a Hike is an application that hikers can create a profile and add hikes they have taken and hike they want to take to their profile. The user will also be able to search hikes and check weather conditions along with comments other hikes have made about that particular hike.
+
+## Installation
+
+## Usage
+
+Create a hiker profile so hikers can track hikes they have taken and hikes they want to take in the future. They can also view comments that other hikers have made about the hikes.
+
+- Take a hike
+
+## Table of Contents
+  - [About the Project](#about-the-project)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credit](#credit)
+  - [License](#license)
+
+
+## About the Project 
+ - 
+
+
+## Installation
+
+## Usage 
+
+
+## Credit
+
+## License
+
