@@ -1,24 +1,15 @@
 <a class="nav-link active" href="/post/{{id}}">
-      <div class="card">
+      <div class="card bg-dark text-white container row rounded ml-3">
         <div class="col">
-          <div class="card-body text-center">
-
-
-            <div class="card mb-3" style="max-width: 1000px">
-                <div class="col-md-4"  style="max-width: 1000px" id="img_holder">
-                </div>
-
-                <div class="col-md-8">
+          <div class="card-body text-center bg-dark">
                   <div class="card-body">
                     <h5 class="card-title">{{name}}</h5>
                     <p class="card-text">{{content}}</p>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
         </div>
       </a>
-        <div class="">
-          <b>{{user.name}}</b>|
+        <div class="text-white text-center container row rounded">
+          <b>{{user.name}}</b>
           <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
