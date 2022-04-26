@@ -34,6 +34,11 @@ User.init(
         password: {
             type: DataTypes.STRING,
             allowNull: false
+         },
+
+         admin: {
+             type: DataTypes.BOOLEAN,
+             defaultValue: true
          }
 
     },

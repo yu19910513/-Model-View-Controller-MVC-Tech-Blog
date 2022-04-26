@@ -13,8 +13,9 @@ const userData = [
     },
     {
         name: 'Rex',
-        email: 'rex@hotmail.com',
-        password: 'rexpassword'
+        email: 'yu19910513@gmail.com',
+        password: 'pass123',
+        admin: true
     },
     {
         name: 'Joe',

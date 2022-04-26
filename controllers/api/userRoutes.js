@@ -17,6 +17,7 @@ router.post('/', (req, res) => {
       req.session.user_id = userDB.id;
       req.session.name = userDB.name;
       req.session.loggedIn = true;
+      req.session.admin = userDB.admin;
 
       res.json(userDB);
     });
@@ -46,6 +47,7 @@ router.post('/login', (req, res) => {
       req.session.user_id = userDB.id;
       req.session.name = userDB.name;
       req.session.loggedIn = true;
+      req.session.admin = userDB.admin;
 
 
       res.json({ user: userDB, message: 'You are now logged in!' });

@@ -1,13 +1,20 @@
 <div>
 
 <h2 class="title text-center text-white">Dashboard</h2><hr>
+ <table>
 {{#if posts.length}}
-    <div>
-    {{#each posts as |post|}}
-        {{> post-info post}}
-        {{> comment post.comments}}
-    {{/each}}
-    </div>
+
+        <table>
+            {{#each posts as |post|}}
+            <tr>
+                <th> {{> post-info post}}</th>
+            </tr>
+            <tr>
+                <td>{{> comment post.comments}}</td>
+            </tr>
+            {{/each}}
+        </table>
+
 {{else}}
 <h3 class="text-light text-center">404! You do not have any Posts yet.</h3>
 
